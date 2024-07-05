@@ -11,3 +11,9 @@ License URL:  http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain:  twentyseventeen
 */
+
+:root {
+    --color-purple: #732E75;
+    --color-green: #CBFF49;
+    --color-black: #000000;
+}
