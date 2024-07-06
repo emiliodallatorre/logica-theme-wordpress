@@ -17,3 +17,26 @@ Text Domain:  twentyseventeen
     --color-green: #CBFF49;
     --color-black: #000000;
 }
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: var(--color-purple);
+    padding: 1rem 3rem 1rem 3rem;
+    color: var(--color-green);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .contact { 
+        & a {
+            padding: 0.5rem;
+            background-color: var(--color-green);
+            color: var(--color-purple);
+            border-top-right-radius: 20px !important;
+            border-bottom-left-radius: 20px !important; 
+        }
+    }
+}
