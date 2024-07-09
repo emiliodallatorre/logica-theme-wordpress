@@ -1,0 +1,36 @@
+div.wp-site-blocks {
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-purple);
+    padding-top: var(--header-padding);
+    color: var(--color-green);
+    margin-bottom: var(--header-padding);
+
+    .contact {
+        background-color: var(--color-green) !important;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border: solid 2px var(--color-green);
+        margin-left: auto;
+
+        a {
+            padding: 12px !important;
+            color: var(--color-purple) !important;
+            text-decoration: none;
+        }
+    }
+
+    .contact:hover {
+        background-color: var(--color-purple) !important;
+
+        a {
+            color: var(--color-green) !important
+        }
+    }
+
+    .wp-block-group:first-child {
+        padding-bottom: var(--header-padding) !important;
+    }
+}
