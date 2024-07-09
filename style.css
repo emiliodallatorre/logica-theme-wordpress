@@ -39,6 +39,7 @@ header {
         border-top-right-radius: 24px;
         border-bottom-left-radius: 24px;
         border: solid 2px var(--color-green);
+        margin-left: auto;
 
         a {
             padding: 12px !important;
