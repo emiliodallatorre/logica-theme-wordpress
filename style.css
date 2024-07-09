@@ -1,19 +1,61 @@
 /*
-Theme Name:   Davis Blocks Child x Logica Insurance
-Theme URL:        http://example.com/twenty-seventeen-child/
-Description:  JEVE Ca' Foscari Theme for Logica Insurance
-Author:           JEVE Ca' Foscari
-Author URL:    https://jeve.it
-Template:         davis-blocks
-Version:          0.0.1
-License:          GNU General Public License v2 or later
-License URL:  http://www.gnu.org/licenses/gpl-2.0.html
-Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
-Text Domain:  twentyseventeen
+Theme Name:  Davis Blocks Child x Logica Insurance
+Theme URL:   http://example.com/davis-blocks-child/
+Description: JEVE Ca' Foscari Theme for Logica Insurance
+Author:      JEVE Ca' Foscari
+Author URL:  https://jeve.it
+Template:    davis-blocks
+Version:     0.0.1
+License:     GNU General Public License v2 or later
+License URL: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:        light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: davis-blocks-child
 */
 
 :root {
     --color-purple: #732E75;
     --color-green: #CBFF49;
     --color-black: #000000;
+
+    --header-padding: 32px;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+div.wp-site-blocks {
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-purple);
+    padding-top: var(--header-padding);
+    color: var(--color-green);
+
+    .contact {
+        background-color: var(--color-green) !important;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border: solid 2px var(--color-green);
+        margin-left: auto;
+
+        a {
+            padding: 12px !important;
+            color: var(--color-purple) !important;
+            text-decoration: none;
+        }
+    }
+
+    .contact:hover {
+        background-color: var(--color-purple) !important;
+
+        a {
+            color: var(--color-green) !important
+        }
+    }
+
+    .wp-block-group:first-child {
+        padding-bottom: var(--header-padding) !important;
+    }
 }
