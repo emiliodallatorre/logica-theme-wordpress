@@ -26,9 +26,9 @@ header {
     background-color: var(--color-purple);
     padding: 1rem 3rem 1rem 3rem;
     color: var(--color-green);
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
 
     .contact {
         background-color: var(--color-green) !important;
