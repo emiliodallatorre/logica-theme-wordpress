@@ -30,13 +30,24 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    .contact { 
-        & a {
-            padding: 0.5rem;
-            background-color: var(--color-green);
-            color: var(--color-purple);
-            border-top-right-radius: 20px !important;
-            border-bottom-left-radius: 20px !important; 
+    .contact {
+        background-color: var(--color-green) !important;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border: solid 2px var(--color-green);
+
+        a {
+            padding: 12px !important;
+            color: var(--color-purple) !important;
+            text-decoration: none;
+        }
+    }
+
+    .contact:hover {
+        background-color: var(--color-purple) !important;
+
+        a {
+            color: var(--color-green) !important
         }
     }
 }
