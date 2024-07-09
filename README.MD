@@ -13,7 +13,17 @@ Welcome to the Logica Child Theme for WordPress. This theme is a child of the "D
 
 ### Custom CSS
 
-Add custom styles in the `style.css` file of the child theme.
+To add custom styles to the child theme, follow these steps:
+
+- For general customizations, add your CSS to the `style.css` file located in the root of the child theme. This file is primarily used for overriding or extending the styles of the parent theme.
+
+- For more granular control over specific components (e.g., header, footer), use the new CSS structure:
+    1. Navigate to the styles folder within the child theme.
+    2. Here, you'll find CSS files named after each component (e.g., `header.css`).
+    3. Add your custom styles to the respective component's CSS file. If a file for your specific component does not exist, you can create a new CSS file with the - component's name (e.g., `navigation.css`).
+    4. Add your component name to `$component_styles` in `functions.php` to enqueue the new CSS file.
+
+This structure helps maintain a clean and organized approach to theming, allowing for easier updates and customizations to specific parts of your site without cluttering the main `style.css` file.
 
 ### Custom Functions
 
