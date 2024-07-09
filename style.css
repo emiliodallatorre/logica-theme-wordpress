@@ -22,9 +22,13 @@ Text Domain:  twentyseventeen
     font-family: 'Roboto', sans-serif;
 }
 
+div.wp-site-blocks {
+    padding: 0;
+}
+
 header {
     background-color: var(--color-purple);
-    padding: 1rem 3rem 1rem 3rem;
+    padding: 32px;
     color: var(--color-green);
     /* display: flex;
     justify-content: space-between;
