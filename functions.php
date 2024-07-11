@@ -14,7 +14,7 @@ function theme_enqueue_styles()
     );
 
     // Define an array of stylesheet components to enqueue.
-    $component_styles = ['header']; //, 'footer'];
+    $component_styles = ['header', 'footer'];
 
     // Loop through each component and enqueue its corresponding stylesheet.
     foreach ($component_styles as $component) {
